@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage landing page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+<!-- flex container -->
+<div class="flex items-center justify-between">
+    <!-- logo -->
+<div class="pt-2">
+<img src="/logoipsum-logo-17.svg" alt="">
+</div>
+<!-- menu items -->
+<div class="hidden space-x-6 md:flex ">
+    <a href="#" class="hover:text-darkgrayishblue">Home</a> 
+    <a href="#" class="hover:text-darkgrayishblue">Portfolio</a> 
+    <a href="#" class="hover:text-darkgrayishblue">Services</a>   
+    <a href="#" class="hover:text-darkgrayishblue">Blog</a>   
+    <a href="#" class="hover:text-darkgrayishblue">About us</a>   
+   </div>
+   <!-- Button -->
+<a href="#" class="hidden p-3 px-6 pt-2 text-black bg-white rounded-full baseline hover:bg-brown md:block">Work with us</a>
+
+   </div>
+    </nav>
+    <!-- Hero section -->
+    <section id="Hero">
+<!-- flex container -->
+<div class="container flex flex-col-reverse items-center px-6 mx auto mt-10 space-y-0 md:-y-0  md:flex-row">
+<!-- left item -->
+<div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+<h1 class="max-w-md text-4xl font-bold text-center md:text-5xl text-left">
+    Digital marketing solutions for your business</h1>
+<!-- Button -->
+<div>
+<a href="#" class="pt-2 px-6 rounded-full baseline bg-white text-black hover:bg-darkgrayishblue">Button</a>
+<a href="#" class="pt-2 px-6 rounded-full baseline bg-white text-black hover:bg-darkgrayishblue">Button</a>
+</div>
+</div>
+<div class="item-right md:w-1/2 px-auto  ">
+    <img src="/Downloads/Saly-14.png" alt="">
+</div>
+</div>
+</div>
+</section> 
+
+    <!-- Features -->
+    <section id="features" class="bg-brightred">
+        <!-- container to features block -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+            <!-- feature 1 -->
+<div class="flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 bg-white">
+    <img src="/Downloads/Icon.png" alt="">
+<h5 class="text-lg font-bold">Web Design</h5>
+<p class="text-sm text-darkgreyishblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere possimus voluptatibus incidunt illum dolorem inventore. Rep ad soluta, numquam tempora sequi dolores?</p>
+<h4 class="underline">find out more</h4>
+</div>
+ <!-- feature 2 -->
+ <div class="flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 bg-white">
+    <img src="/Downloads/Icon (1).png" alt="">
+<h5 class="text-lg font-bold">Consultance</h5>
+<p class="text-sm text-darkgreyishblue">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere possimus voluptatibus i totam vel molestias impedit ad soluta, numquam tempora sequi dolores?
+</p>
+<h4 class="underline">find out more</h4>
+</div>
+
+ <!-- feature 3 -->
+ <div class="flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 bg-white">
+    <img src="/Downloads/Icon (2).png" alt="">
+<h5 class="text-lg font-bold">Web Development</h5>
+<p class="text-sm text-darkgreyishblue">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere possimus voluptatibus incidunt impedit ad soluta, numquam tempora sequi dolores?
+</p>
+<h4 class="underline">find out more</h4>
+</div>
+    </div>
+</section>
+
+<!-- content section -->
+<section id="content" class="bg-white">
+<!-- flax container -->
+<div class="container flex md:flex-row items-center px-6 mx-aoto mt-10">
+    <!-- left item -->
+    <div>
+        <img src="/Downloads/Frame 1 7.png" alt="">
+    </div>
+<!-- text -->
+<div class="flex flex-col md:w-1/2">
+<h6 class="max-w-md text-right md:text-left text-blue">Who we are</h6>
+<h1 class="font-bold text-4xl">Profesional Team for Your Solution</h1>
+<p class="text-sm text-darkgrayishblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae asiandae perspiciatis eveniet vel animi quam facilis, molestias voluptas quasi!</p>
+</div>
+</div>
+<!-- flex container -->
+<div class="container flex md:flex-row items-center px-6 mx-auto mt-10">
+<!-- text -->
+<div class="flex flex-col md:w-1/2">
+<h1 class="font-bold text-4xl">504</h1>
+<p class="text-sm font bold text-blue">Projects</p>
+<br>
+<br>
+<br>
+<h1 class="font-bold text-4xl">10</h1>
+<p class="text-sm font-bold text-blue">Employees</p>
+</div>
+<div class="flex flex-col md:w-1/2">
+<h1 class="font-bold text-4xl">2131</h1>
+<p class="text-sm font-bold text-blue">Customers</p>
+<br>
+<br>
+<br>
+<h1 class="font-bold text-4xl">341</h1>
+<p class="text-sm font-bold text blue">Coffee</p>
+</div>
+<!-- Right item -->
+<div>
+    <img src="/Downloads/Frame 2 10.png" alt="">
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section id="testimonials">
+<div class="max-w-6xl px-5 mx-auto mt-24 text-center">
+    <h1 class="text-yellow font-bold text-sm">Testimonials</h1>
+    <h2 class="font-bold text-white text-4xl">Why people love us</h2>
+</div>
+<div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+    <!-- Testimonial 1 -->
+    <div class="flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 bg-white">
+<p class="text-sm text-darkgrayishblue">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit alias ea possimus debitise dolorem veritatis repellendus. Deleniti quae ea ipsa fugit.
+</p>
+<div class="container flex md:flex-row items-center px-6 mx-auto mt-10">
+<img src="/Avatar.png" alt="">
+<h6 class="text-right">Albert Flores</h6>
+    </div>
+</div>
+    <!-- Testimonial 2 -->
+    <div class="flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 bg-white">
+        <p class="text-sm text-darkgrayishblue">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit alias ea possimus debitise dolorem veritatis repellendus. Deleniti quae ea ipsa fugit.
+        </p>
+        <div class="container flex md:flex-row items-center px-6 mx-auto mt-10">
+        <img src="/Avatar (1).png" alt="">
+        <h6 class="text-right">Lameck Moks</h6>
+            </div>
+        </div>
+            <!-- Testimonial 3 -->
+    <div class="flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 bg-white">
+        <p class="text-sm text-darkgrayishblue">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit alias ea possimus debitise dolorem veritatis repellendus. Deleniti quae ea ipsa fugit.
+        </p>
+        <div class="container flex md:flex-row items-center px-6 mx-auto mt-10">
+        <img src="/Avatar (2).png" alt="">
+        <h6 class="text-right">Tish Ku</h6>
+            </div>
+            </div>
+</section>
+<!-- Portfolio -->
+<section id="portfolio" class="bg-white">
+    <div class="text-center mt-20">
+<h1 class="font-bold text-purple-700 text-sm">Portfolio</h1>
+<h2 class="font-bold text-4xl">Our projects</h2>
+</div>
+<div class="flex flex-col mt-24 md:flex-row">
+ <div class="flex flex-col md:flex-col items-center p-6 space-y-6 rounded-lg md:1/3">
+<img src="/Downloads/Frame 8 1.png" alt="">
+<h1 class="font bold text-lg text-center">Rocket science</h1>
+    <h2 class="text-sm text-blue-400">Web development</h2>
+ </div> 
+ <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3">
+    <img src="/Downloads/Frame 4 1.png" alt="">
+    <h1 class="font bold text-lg text-center">Sketch</h1>
+    <h2 class="text-sm text-blue-400">Consultance</h2>
+ </div>  
+ <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3">
+    <img src="/Downloads/Frame 5 1.png" alt="">
+    <h1 class="font bold text-lg text-center">Mr Robot</h1>
+    <h2 class="text-sm text-blue-400">Web development</h2>
+ </div>
+</div>
+
+<div class="flex flex-col mt-12 md:flex-row">
+    <div class="flex flex-col md:flex-col items-center p-6 space-y-6 rounded-lg md:1/3">
+   <img src="/Downloads/Frame 6 1.png" alt="">
+   <h1 class="font bold text-lg text-center">To-Do-List</h1>
+       <h2 class="text-sm text-blue-400">Web design</h2>
+    </div> 
+    <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3">
+       <img src="/Downloads/Frame 7 1.png" alt="">
+       <h1 class="font bold text-lg text-center">Good workspace</h1>
+       <h2 class="text-sm text-blue-400">Consultance</h2>
+    </div>  
+    <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3">
+       <img src="/Downloads/Frame 3 6.png" alt="">
+       <h1 class="font bold text-lg text-center">Single person</h1>
+       <h2 class="text-sm text-blue-400">Web development</h2>
+    </div>
+   </div>
+</section>
+<section id="FAQ">
+<div class="container flex-col mb-32 mt-24 ml-12">
+<h1 class="text-sm text-yellow-300">Frequently Asked Questions</h1>
+<h2 class="font-bold text-4xl text-white">How Can We Help?</h2>
+<!-- place holder -->
+<div class="flex ml-0">
+<form>
+    <div>
+<input type="text" class="flex-1 rounded-lg text-lg outline-none px-32 p-3" placeholder="say something olmeck +">
+</div>
+<br>
+<div>
+    <input type="text" class="flex rounded-lg text-lg outline-none px-32 p-32 text-lg" placeholder="say something olmeckfdhgt4 frdsh45t ggeesargtf +">
+    </div>
+<br>
+    <div>
+        <input type="text" class="flex-1 rounded-lg text-lg outline-none px-32 p-3" placeholder="say something olmeck +">
+        </div>
+        
+</form>
+<!-- right item -->
+<div class=" ml-20">
+    <img src="/Downloads/Pic.png" alt="">
+</div>
+</div>
+</div>
+<section> 
+    <!-- flex container -->
+    <div class="container flex md:flex-row item-center px-6 mx-auto mt-10 bg-white">
+        <!-- left item -->
+<div class="flex flex-col mb-32 md:w-1/2 text-4xl font-bold">
+<h1>let's work together</h1>
+<br>
+<!-- button -->
+<div>
+<a href="#" class="p-3 px-3 bg-darkblue pt-2 text-white rounded-full baseline hover:bg-darkgrayishblue">Contact us</a>
+</div>
+</div>
+<div class="mt-12">
+<img src="/Downloads/Saly-14.png" alt="">
+</div>
+</div>
+</section>
+<section>
+    
+    <!-- footer -->
+    <footer class="bg-verydarkblue">
+        <img src="/logoipsum-logo-17.svg" alt="">
+<div class="mx-auto text-white mt-32">
+copyright &copy;2022 Ratchanon
+    </div>
+    </footer>
+</section>
+</body>
+</html>
